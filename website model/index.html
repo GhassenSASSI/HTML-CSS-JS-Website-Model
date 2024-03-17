@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Snow Man</title>
+</head>
+<body>
+    <div class="header">
+        <img src="pngwing.com.png" alt="LOGO" width="130" height="130">
+        <div></div>
+        <ul>
+            <li><a class="link active" href="#">à propos</a></li>
+            <li><a class="link" href="#">randonnées</a></li>
+            <li><a class="link" href="#">actualités</a></li>
+            <li><a class="link" href="#">contact</a></li>
+            <li class="connect"><div><i class="fa-solid fa-user"></i></div><a href="#">connexion</a></li>
+        </ul>
+        <i class="fa-solid fa-bars fa-2xl menu" onclick="showSideMenu()"></i>
+    </div>
+    <ul class="side-menu">
+        <li><i class="fa-solid fa-xmark fa-2xl" onclick="hideSideMenu()"></i></li>
+        <li><a class="link active" href="#">à propos</a></li>
+        <li><a class="link" href="#">randonnées</a></li>
+        <li><a class="link" href="#">actualités</a></li>
+        <li><a class="link" href="#">contact</a></li>
+        <li class="connect"><div><i class="fa-solid fa-user"></i></div><a href="#">connexion</a></li>
+    </ul>
+    <div class="description">
+        <h1>À propos de la montagne</h1>
+        <p>Paragraphe. Vous pouvez le modifier et ajouter votre texte. <br> Double-cliquez ici ou cliquez sur « Modifier le texte » pour ajouter votre contenu et personnaliser la police.</p>
+    </div>
+    <div class="text-image">
+        <div class="first text">
+            <h2>Prêts dès les premiers flocons</h2>
+            <p>Paragraphe. Vous pouvez le modifier et ajouter votre texte. Double-cliquez ici ou cliquez sur « Modifier le texte » pour ajouter votre contenu et personnaliser la police. Vous pouvez le faire glisser-déposer où vous le souhaitez sur la page. <br> <br> C'est l'espace idéal pour rédiger un long texte de présentation. Utilisez-le pour donner plus d'informations sur votre entreprise. Vous pouvez présenter votre équipe et les services que vous proposez.</p>
+        </div>
+        <div id="first" class="first image">
+            <img id="image" src="image.jpg" alt="image">
+        </div>
+        <div class="image">
+            <img src="image1.webp" alt="image">
+        </div>
+        <div class="text">
+            <h2>Aventure et expérience</h2>
+            <p>Vous pouvez le modifier et ajouter votre texte. Double-cliquez ici ou cliquez sur « Modifier le texte » pour ajouter votre contenu et personnaliser la police.</p>
+        </div>
+        <div class="text">
+            <h2>Priorité à la sécurité</h2>
+            <p>Vous pouvez le modifier et ajouter votre texte. Double-cliquez ici ou cliquez sur « Modifier le texte » pour ajouter votre contenu et personnaliser la police.</p>
+        </div>
+        <div class="image">
+            <img src="image2.webp" alt="image">
+        </div>
+    </div>
+    <div class="pictures">
+        <h1>Galerie Névé</h1>
+        <div class="picture-container">
+            <div><img src="img1.webp" alt="image"></div>
+            <div><img src="img2.webp" alt="image"></div>
+            <div><img src="img3.webp" alt="image"></div>
+            <div><img src="img4.webp" alt="image"></div>
+            <div><img src="img5.webp" alt="image"></div>
+            <div><img src="img6.webp" alt="image"></div>
+            <div><img src="img7.webp" alt="image"></div>
+            <div><img src="img8.webp" alt="image"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="top-footer">
+            <div class="logo">
+                <img src="pngwing.com.png" alt="LOGO" width="130" height="130">
+            </div>
+            <div class="options-container">
+                <ul class="menu">
+                    <li><a class="link active" href="#">à propos</a></li>
+                    <li><a class="link" href="#">randonnées</a></li>
+                    <li><a class="link" href="#">actualités</a></li>
+                    <li><a class="link" href="#">contact</a></li>
+                </ul>
+                <ul class="socials">
+                    <li><a class="link" href="#">facebook</a></li>
+                    <li><a class="link" href="#">instagram</a></li>
+                </ul>
+                <div>
+                    <button style="position: absolute; right: 0;">réserver</button>
+                </div>
+            </div>
+        </div>
+        <div class="mid-footer">
+            <button onclick="scrollToTop()">remonter <i class="fa-solid fa-chevron-up"></i></button>
+        </div>
+        <div class="bot-footer">
+            <p>© 2035 par Mont Névé. <br> Créé avec <a href="#">Wix.com</a></p>
+            <div class="options-container">
+                <ul class="terms">
+                    <li><a class="link" href="#">Termes et conditions</a></li>
+                    <li><a class="link" href="#">Mentions légales</a></li>
+                </ul>
+                <ul class="politics">
+                    <li><a class="link" href="#">Politique de confidentialité</a></li>
+                    <li><a class="link" href="#">Politique de cookies</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
